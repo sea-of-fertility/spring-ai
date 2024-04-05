@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-ai
+
+  ai:
+    ollama:
+      base-url: z
+
+      chat:
+        enabled: true
+
+        options:
+          model: mistral
+          temperature: 0.7
+
